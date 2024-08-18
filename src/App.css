@@ -1,0 +1,21 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

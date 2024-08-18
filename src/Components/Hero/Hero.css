@@ -1,0 +1,36 @@
+/* src/components/Hero/Hero.css */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #284e77, #d2ebee);
+    color: white;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .hero-content {
+    animation: slideUp 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  

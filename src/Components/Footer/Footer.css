@@ -1,0 +1,43 @@
+/* src/components/Footer/Footer.css */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-social-links {
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer-social-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .footer-social-links a:hover {
+    color: #00bfff;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
