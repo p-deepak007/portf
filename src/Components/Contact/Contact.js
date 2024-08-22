@@ -1,6 +1,7 @@
 // src/components/Contact/Contact.js
 import React, { useState } from 'react';
 import './Contact.css';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -15,10 +16,14 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you can add the code to handle form submission, such as sending the data to an API or email
-    alert('Message sent! Thank you for reaching out.');
-    setFormData({ name: '', email: '', message: '' });
-  };
+
+    emailjs.sendForm('service_u54409f', 'template_og4cjo3', e.target, '6HVMZ4Qx1I8FufUDF')
+        .then((result) => {
+            alert('Message sent successfully!');
+        }, (error) => {
+            alert('Failed to send message: ' + error.text);
+        });
+};
 
   return (
     <section className="contact-section">

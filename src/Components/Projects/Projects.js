@@ -13,7 +13,7 @@ const projects = [
     title: 'Project 2',
     description: 'A Todo list web application',
     techStack: 'React, Node.js',
-    link: '#'
+    link: 'https://github.com/p-deepak007/todo-list.git'
   },
   // Add more projects here
 ];

@@ -8,14 +8,14 @@ const Footer = () => {
       <div className="footer-content">
         <p>© 2024 Deepak Pal. All Rights Reserved.</p>
         <div className="footer-social-links">
-          <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/deepak-pal-390a51247/" target="_blank" rel="noopener noreferrer">
             LinkedIn
           </a>
-          <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Deepak-pal007" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
-          <a href="https://twitter.com/your-username" target="_blank" rel="noopener noreferrer">
-            Twitter
+          <a href="https://www.instagram.com/p.deepak007?igsh=MXcxamw2emdqY2F4eg==" target="_blank" rel="noopener noreferrer">
+            instagram
           </a>
           {/* Add more social links as needed */}
         </div>

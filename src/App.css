@@ -19,3 +19,77 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+/* Light Mode Styles */
+.App.light-mode {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+.App.light-mode .App-header {
+  background-color: #61dafb;
+  color: #282c34;
+}
+
+/* Dark Mode Styles */
+.App.dark-mode {
+  background-color: #282c34;
+  color: #f0f0f0;
+}
+
+.App.dark-mode .App-header {
+  background-color: #1c1f24;
+  color: #61dafb;
+}
+
+button {
+  background: none;
+  border: 2px solid currentColor;
+  padding: 0.5em 1em;
+  font-size: 1rem;
+  color: inherit;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+button:hover {
+  background-color: currentColor;
+  color: #282c34;
+}
+
+button:focus {
+  outline: none;
+}
